@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookiva - Forms</title>
+    <!-- <link rel="stylesheet" href="utility.css"> -->
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: #ebebeb;
+        }
+        .book-form{
+            display: flex;
+            flex-direction: column;
+            width: 30rem;
+            gap: 1rem;
+            background-color: white;
+            padding: 1rem;
+            border-radius: 3px;
+        }
+    </style>
+    <form class="book-form">
+        <label for="hod-mail">HOD Mail</label>
+        <input type="text" name="hod-mail" value="hod.it@sairamit.edu.in" disabled>
+        <label for="hod-name">HOD Name</label>
+        <input type="text" name="hod-name">
+        <label for="applicant-name">Applicant Name</label>
+        <input type="text" name="applicant-name">
+        <p>Selected hall: Alpha hall</p>
+        <label for="applicant-mail">Applicant mail</label>
+        <input type="email" name="applicant-mail">
+        <label for="date-from">Date from:</label>
+        <input type="date" name="date-from">
+        <label for="date-to">Date to:</label>
+        <input type="date" name="date-to">
+        <button>Request</button>
+    </form>
+</body>
+</html>
